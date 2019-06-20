@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="././assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="row">
+        <h1>Crystal Collector!</h1>
+    </div>
+    <div class="row instructions">
+        <p>You will be given a random number at the start of the game</p>
+        <p>There are four crystals below. By clickling...</p>
+</div>
+<div class="container col-md-4" id="middleContainer">
+    <div class="row game-section">
+        <div class="col-md-12">
+        <p>Number to Guess: <span id="random-num"></span></p>
+        </div>
+    </div>
+        <div class="row wins-and-losses">
+            <div class="col-md-12 wins">
+                <p>wins: <span id="wins"></span></p>
+            </div>
+            </div>
+            <div class="row losses">
+                    <div class="col-md-12 wins">
+                    <p>losses: <span id="losses"></span></p>
+                </div>
+                </div>
+            </div>
+            <div class="container col-md-10">
+    <div class="row images">
+         <div class="col-md-3 redCrystal">
+        <img src="assets/images/red.png">
+
+    </div>
+    <div class="col-md-3 blueCrystal">
+            <img src="assets/images/blue.jpeg">
+    
+        </div>
+        <div class="col-md-3 greenCrystal">
+                <img src="assets/images/green.jpeg">
+        
+            </div>
+            <div class="col-md-3 purpleCrystal">
+                    <img src="assets/images/purple.jpeg">
+
+                </div>
+            </div>
+        </div>
+        <div class="container col-md-3">
+    <div class="row total">
+        <div class="col-md-6">
+        <p>Your total score is:</p>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-md-6" id="total-score">
+
+        </div>
+    </div>
+</div>
+   
+    <script type="text/javascript" src="././assets/javascript/game.js"></script>
+</body>
+</html>
