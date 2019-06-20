@@ -15,7 +15,7 @@ img {
    display: inline-block;
    border-color:white;
    border-style: solid;
-   background-color:red;
+   background-color:rgb(233, 75, 75);
    border-width: 10px;
    padding-right: 13px;
    padding-left: 13px;
@@ -60,4 +60,14 @@ img {
    margin-bottom: 50px;
    text-align: center;
   
+}
+
+#title {
+color: white;
+
+}
+
+#i {
+    font-size: 15px;
+    text-align: left;
 }
